@@ -1,5 +1,5 @@
 # ForkBox
-ForkBox is a fork of VirtualBox to add improvements, removing some features/bloat that are useless, changing/reverting the junk new UI. etc. Not everything new is good! #
+ForkBox is a fork of VirtualBox to add improvements, removing some features/bloat that are useless, changing/reverting the junk new UI. etc. Not everything new is good!
 
 <!--just a general-purpose full virtualization software for x86_64
 hardware (with version 7.1 additionally for macOS/Arm), targeted at laptop,
