@@ -5,9 +5,7 @@ We aim to remove unnecessary bloat and revert changes that we feel detract from 
 
 ForkBox is a powerful x86_64 (and ARM, via v7.1+) full-virtualization tool for desktop, server, and embedded use. It runs on Linux, Windows, macOS, and Solaris hosts.
 
-Key features include a streamlined and user-friendly graphical interface (reverting some recent upstream UI changes), flexible networking, and high performance. It's designed for anyone from developers testing software to users needing to run multiple operating systems simultaneously.
-
-Not everything new is good!
+Key features include a streamlined and user-friendly graphical interface (reverting some recent upstream UI changes), flexible networking, and high performance. It's designed for anyone from developers testing software to users needing to run multiple operating systems simultaneously. <i>Not everything new is good!</i>
 <!--just a general-purpose full virtualization software for x86_64
 hardware (with version 7.1 additionally for macOS/Arm), targeted at laptop,
 desktop, server and embedded use. (bla bla bla)-->
