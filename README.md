@@ -1,8 +1,9 @@
-# Oracle VirtualBox
+# ForkBox
+ForkBox is a fork of VirtualBox to add improvements, removing some features/bloat that are useless, changing/reverting the junk new UI. etc. Not everything new is good! #
 
-VirtualBox is a general-purpose full virtualization software for x86_64
+<!--just a general-purpose full virtualization software for x86_64
 hardware (with version 7.1 additionally for macOS/Arm), targeted at laptop,
-desktop, server and embedded use.
+desktop, server and embedded use. (bla bla bla)-->
 
 It features a very user friendly graphical user interface and is available for
 many popular operating systems (Linux, Windows, macOS and Solaris). Flexible
@@ -14,39 +15,37 @@ reduce effort with a large number of tasks including software testing.
 
 ## Getting started
 
-VirtualBox is a complex product with multiple dependencies, some of them
+ForkBox is a complex product with multiple dependencies, some of them
 specific to the operating system on which you want to run it.
 
-The basics for building VirtualBox are described on the [build
-instructions](https://www.virtualbox.org/wiki/Build_instructions) page.
+The basics for building ForkBox are described on the [build
+instructions](https://forkbox.ixchats.com/build_instructions.html) page.
 
 ## Documentation
 
-The [VirtualBox User
-Guide](https://docs.oracle.com/en/virtualization/virtualbox/index.html)
+The [ForkBox User
+Guide](https://forkbox.ixchats.com/guide.html)
 contains all information relevant for users, including the product features and
 their configuration.
 
 For developers it is recommended to start with the [technical
-documentation](https://www.virtualbox.org/wiki/Technical_documentation) which
+documentation](https://forkbox.ixchats.com/technical_documentation.html) which
 contains links to a broad collection of pages related to development, covering
 many aspects of the project and its features.
 
 ## Examples
 
-Tutorials on how to install and use Oracle VirtualBox are available at
+VirtualBox is sorrrta similar to ForkBox.. sorta? I mean to say we're too lazy to make tutorials, so here are some tutorials on how to install and use Oracle VirtualBox:
 [Learn to Install Oracle VirtualBox and Run Virtual Machines](https://blogs.oracle.com/linux/post/learn-to-install-oracle-virtualbox-and-run-virtual-machines)
 and [Use Oracle VirtualBox on Oracle Linux](https://docs.oracle.com/en/learn/ol-vbox/index.html).
 
 ## Help
-
-Oracle customers with a support contract covering Oracle VirtualBox should
-reach out to [Oracle Support](https://www.oracle.com/support/).
-
-Everyone can use the [VirtualBox Forums](https://forums.virtualbox.org/)
-for questions about the product or discussing its functionality. Open an [issue](https://github.com/VirtualBox/virtualbox/issues)
-for bug reports or request for enhancements. Report a security vulnerability
-according to the [Reporting Vulnerabilities Guide](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
+<!-- Forkbox Support -->
+DM me on Discord <!--should reach out to -->[@ErrorOliver](https://discord.com/users/986653930232643584).
+Everyone can use the [ForkBox Forums](https://forums-forkbox.ixchats.com/)
+For questions about the product or discussing its functionality. Open an [issue](https://github.com/ForkBoxVM/forkbox/issues)
+For bug reports or request for enhancements. Report a security vulnerability
+according to the [Reporting Vulnerabilities Guide](https://forkbox.ixchats.com/report_vulnerability.html).
 
 ## Contributing
 
@@ -58,6 +57,8 @@ pull request, please [review our contribution guide](./CONTRIBUTING.md)
 Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process.
 
 ## License
+
+this is from the original virtualbox repo, some law stuff or something...
 
 The correct copyright notice format for both documentation and software is
 
