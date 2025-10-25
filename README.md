@@ -1,6 +1,13 @@
 # ForkBox
-ForkBox is a fork of VirtualBox to add improvements, removing some features/bloat that are useless, changing/reverting the junk new UI. etc. Not everything new is good!
+<!--ForkBox is a fork of VirtualBox to add improvements, removing some features/bloat that are useless, changing/reverting the junk new UI. etc. Not everything new is good!-->
+ForkBox is a fork of VirtualBox. Our goal is to refine the VirtualBox experience by focusing on stability, performance, and a clean, traditional user interface.
+We aim to remove unnecessary bloat and revert changes that we feel detract from the core user experience. If you prefer a more classic, streamlined approach to virtualization, ForkBox is for you.
 
+ForkBox is a powerful x86_64 (and ARM, via v7.1+) full-virtualization tool for desktop, server, and embedded use. It runs on Linux, Windows, macOS, and Solaris hosts.
+
+Key features include a streamlined and user-friendly graphical interface (reverting some recent upstream UI changes), flexible networking, and high performance. It's designed for anyone from developers testing software to users needing to run multiple operating systems simultaneously.
+
+Not everything new is good!
 <!--just a general-purpose full virtualization software for x86_64
 hardware (with version 7.1 additionally for macOS/Arm), targeted at laptop,
 desktop, server and embedded use. (bla bla bla)-->
@@ -23,8 +30,7 @@ instructions](https://forkbox.ixchats.com/build_instructions.html) page.
 
 ## Documentation
 
-The [ForkBox User
-Guide](https://forkbox.ixchats.com/guide.html)
+The [ForkBox User Guide](https://forkbox.ixchats.com/guide.html)
 contains all information relevant for users, including the product features and
 their configuration.
 
@@ -34,19 +40,17 @@ contains links to a broad collection of pages related to development, covering
 many aspects of the project and its features.
 
 ## Examples
-
-VirtualBox is sorrrta similar to ForkBox.. sorta? I mean to say we're too lazy to make tutorials, so here are some tutorials on how to install and use Oracle VirtualBox:
+Since ForkBox is a fork of VirtualBox, VirtualBox is sorrrta similar to ForkBox.. sorta? I mean to say we're too lazy to make tutorials.. ahem... The official VirtualBox documentation and tutorials are a great resource for getting started with general concepts, such as creating and managing virtual machines.
 [Learn to Install Oracle VirtualBox and Run Virtual Machines](https://blogs.oracle.com/linux/post/learn-to-install-oracle-virtualbox-and-run-virtual-machines)
 and [Use Oracle VirtualBox on Oracle Linux](https://docs.oracle.com/en/learn/ol-vbox/index.html).
 
-## Help
-<!-- Forkbox Support -->
-DM me on Discord <!--should reach out to -->[@ErrorOliver](https://discord.com/users/986653930232643584).
-Everyone can use the [ForkBox Forums](https://forums-forkbox.ixchats.com/)
-For questions about the product or discussing its functionality. Open an [issue](https://github.com/ForkBoxVM/forkbox/issues)
-For bug reports or request for enhancements. Report a security vulnerability
-according to the [Reporting Vulnerabilities Guide](https://forkbox.ixchats.com/report_vulnerability.html).
+## Support
 
+* **Community Chat:** Discord server coming soon, for now, if you want to chat, DM me on discord [@ErrorOliver](https://discord.com/users/986653930232643584). <!--Join our [Discord Server](https://discord.gg/your-server-link) for live discussion and community support.-->
+* **Forums:** Use the [ForkBox Forums](https://forums-forkbox.ixchats.com/) for questions about the product or discussing its functionality.
+* **Issues:** Open an [issue](https://github.com/ForkBoxVM/forkbox/issues) for bug reports or requests for enhancements.
+* **Security:** Report a security vulnerability according to the [Reporting Vulnerabilities Guide](https://forkbox.ixchats.com/report_vulnerability.html).
+  
 ## Contributing
 
 This project welcomes contributions from the community. Before submitting a
@@ -57,36 +61,10 @@ pull request, please [review our contribution guide](./CONTRIBUTING.md)
 Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process.
 
 ## License
+ForkBox is free software released under the **GNU General Public License, Version 3 (GPLv3)**.
 
-this is from the original virtualbox repo, some law stuff or something...
+The project is a fork of Oracle VirtualBox and adheres to the original project's licensing. All new contributions must be compatible with the GPLv3.
 
-The correct copyright notice format for both documentation and software is
-
-    Copyright (C) [year-]year Oracle and/or its affiliates.
-
-    This file is part of VirtualBox base platform packages, as
-    available from https://www.virtualbox.org.
-
-    This program is free software; you can redistribute it and/or
-    modify it under the terms of the GNU General Public License
-    as published by the Free Software Foundation, in version 3 of the
-    License.
-
-    This program is distributed in the hope that it will be useful, but
-    WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-    General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, see <https://www.gnu.org/licenses>.
-
-You must include the year the content was first released (on any platform) and
-the most recent year in which it was revised:
-
-    Copyright (C) 2025 Oracle and/or its affiliates.
-
-Released under the GNU General Public License v3.0 as shown at
-[COPYING](./COPYING) which contains clarifications regarding allowed licenses
-for other code using parts of the project which are covered by multiple
+For full license details, please see the [COPYING](./COPYING) file.
 licenses.
 
